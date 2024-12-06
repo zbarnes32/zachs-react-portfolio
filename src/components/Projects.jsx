@@ -2,9 +2,9 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-10 bg-neutral-50">
+        <section id="projects" className="py-10 bg-neutral-50 flex justify-center">
             <div className="container mx-4">
-                <h2 className="text-5xl text-center mt-6 mb-12 text-blue-950">My Projects</h2>
+                <h2 className="text-5xl text-center mt-2 mb-16 text-blue-950">My Projects</h2>
                 <div className="flex justify-between grid grid-cols-3 gap-6">
                     {/* Project Card */}
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

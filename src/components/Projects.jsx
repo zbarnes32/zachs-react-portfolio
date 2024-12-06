@@ -2,10 +2,10 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-20 bg-neutral-100">
-            <div className="container mx-auto">
-                <h2 className="text-3xl text-center mb-6">My Projects</h2>
-                <div className="flex justify-between max-w-xl">
+        <section id="projects" className="py-10 bg-neutral-50">
+            <div className="container mx-4">
+                <h2 className="text-5xl text-center mt-6 mb-12 text-blue-950">My Projects</h2>
+                <div className="flex justify-between grid grid-cols-3 gap-6">
                     {/* Project Card */}
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <img className="rounded-t-lg" src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />

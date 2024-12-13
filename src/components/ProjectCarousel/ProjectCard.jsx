@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
     return (
         <section id="projects" className="flex justify-center">
     {/* Project Card */}
-            <div className="relative shadow">
+            <div className="relative">
                 <img className="border-2 border-neutral-50 rounded-lg h-[600px] w-[1200px] object-fit" src={project.image} alt={`Screenshot of the ${project.name} project.`} />
                 <div className="rounded-b-lg absolute m-[2px] bottom-0 w-full bg-blue-950 bg-opacity-75 p-5">
                     <h5 className="mb-2 text-3xl font-bold text-neutral-50">{project.name}</h5>

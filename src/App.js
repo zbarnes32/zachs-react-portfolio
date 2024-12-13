@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import ProjectCarousel from './components/ProjectCarousel';
 
 
+
+
 function App() {
   return (
     <div>

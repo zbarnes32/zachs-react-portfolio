@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faBootstrap, } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHtml5, faCss3Alt, faJs, faBootstrap, } from '@fortawesome/free-brands-svg-icons';
 
 const skills = [
     {

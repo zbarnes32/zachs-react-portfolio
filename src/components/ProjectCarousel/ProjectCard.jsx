@@ -3,8 +3,6 @@ import React from 'react';
 const ProjectCard = (props) => {
     const { project } = props;
 
-    const projectLanguages = project.languages;
-
     return (
         <section id="projects" className="flex justify-center">
     {/* Project Card */}

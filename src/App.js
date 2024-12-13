@@ -6,7 +6,8 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import ProjectCarousel from './components/ProjectCarousel';
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {

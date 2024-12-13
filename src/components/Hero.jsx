@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section id="hero" className="bg-gradient-to-r from-blue-900 to-blue-950 text-white py-80 px-20 flex justify-between items-center">
+        <section id="hero" className="bg-gradient-to-r from-blue-900 to-blue-950 text-white h-screen px-20 flex justify-between items-center">
             <div className="p-20 mx-8 basis-1/2">
                 <h1 className="text-7xl font-bold py-2">Zachary Barnes</h1>
                 <h2 className="text-3xl">Full Stack Developer</h2>

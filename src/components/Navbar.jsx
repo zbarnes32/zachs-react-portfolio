@@ -13,7 +13,7 @@ const Navbar = () => {
                     {/* <li className="mx-2"><a href="#contact" className="hover:text-blue-200">Contact Me</a></li> */}
                 </ul>
             </div>
-                    <button className="bg-cyan-600 mx-8 px-4 py-2 rounded-full hover:bg-blue-950 hover:text-cyan-400 hover:border-2 hover:border-cyan-600"><a href="#contact">Get In Touch</a></button>
+                    <button className="bg-cyan-600 mx-8 px-4 py-2 rounded-full w-40 hover:bg-blue-950 hover:text-cyan-400 hover:border-2 hover:border-cyan-600"><a href="#contact">Get In Touch</a></button>
         </nav>
     );
 };

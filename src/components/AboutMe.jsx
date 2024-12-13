@@ -6,7 +6,7 @@ const AboutMe = () => {
 
 
     return (
-        <section id="about" className="py-32 px-20 bg-neutral-100 text-blue-950 flex justify-between">
+        <section id="about" className="py-32 px-20 h-screen bg-neutral-100 text-blue-950 flex justify-between">
             <div className="container mx-auto text-center basis-1/2">
                 <h2 className="text-5xl mb-6">About Me</h2>
                 <p className="">During my time at Codeworks, I had the opportunity to immerse myself in full-stack software development, where I honed my skills in JavaScript, React, Node.js, and other modern technologies. The intensive, hands-on curriculum helped me develop a strong foundation in both front-end and back-end development, as well as learn essential tools like Git, SQL, and test-driven development (TDD). The collaborative nature of the program, along with the real-world projects I worked on, strengthened my problem-solving abilities and prepared me for the fast-paced challenges of the tech industry.</p>

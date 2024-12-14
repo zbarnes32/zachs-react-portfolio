@@ -25,7 +25,7 @@ const ProjectCarousel = () => {
                  }}
             >
                 <FontAwesomeIcon icon={faChevronLeft} /></button>
-            <div className="rounded-lg w-full">
+            <div className="rounded-lg w-full duration-1000 ease-in-out">
                 {projectCards}   
             </div>
             <button 

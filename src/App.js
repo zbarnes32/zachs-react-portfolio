@@ -18,7 +18,7 @@ function App() {
       <AboutMe />
       <div className="flex flex-col h-screen items-center justify-center bg-gradient-to-r from-blue-900 to-blue-950">
         <div className="container mx-4">
-          <h2 className="text-5xl text-center mt-2 mb-16 text-neutral-50">My Projects</h2>
+          <h2 className="text-5xl text-center mt-32 mb-16 text-neutral-50">My Projects</h2>
           <ProjectCarousel />
         </div>
       </div>

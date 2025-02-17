@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
         <section id="projects" className="flex justify-center">
     {/* Project Card */}
             <div className="relative">
-                <img className="border-2 border-neutral-50 rounded-lg h-[600px] w-[1200px] object-fit" src={project.image} alt={`Screenshot of the ${project.name} project.`} />
+                <img className="border-2 border-neutral-50 rounded-lg w-full h-[360px] object-fit" src={project.image} alt={`Screenshot of the ${project.name} project.`} />
                 <div className="flex justify-between items-center rounded-b-lg absolute m-[2px] bottom-0 w-full bg-blue-950 bg-opacity-75 p-3">
                     <div className="flex flex-row basis-3/4">
                         <div className="flex flex-col">
@@ -29,7 +29,7 @@ const ProjectCard = (props) => {
                         </div>
                     </div>
                     <div className="p-2">
-                        <div className="flex justify-center flex-wrap basis-1/4">{project.languages.map((language, idx) => ( <div key={idx} className="mx-2 my-2 py-2 px-4 rounded-full text-neutral-50 bg-cyan-700 text-sm">{language}</div>
+                        <div className="flex justify-center flex-wrap basis-1/4">{project.languages.map((language, idx) => ( <div key={idx} className="mx-2 my-2 py-2 px-4 rounded-full text-neutral-50 bg-cyan-600 text-sm">{language}</div>
                     ))}</div>
                     </div>
                 </div>

@@ -16,6 +16,22 @@ const projects = [
         github: "https://github.com/zbarnes32/keepr"
     },
     {
+        name: "MenuWorks",
+        outline: "MenuWorks was designed for local restaurant owners can put their menus online for customers to order at their convenience. Customers would be able to order from their favorite local restaurants while local restaurant owners would be able to manage their online orders and edit their online menus. This was a group project where we worked in a scrum environment to build a full stack application.",
+        description: "A longer breakdown of the project will go here. It will most likely be about a paragraph long and just go into a little more detail about the project.",
+        languages: [
+            "Vue.js", 
+            ".NET", 
+            "MySQL",
+            "JavaScript",
+            "Bootstrap CSS",
+            "HTML"
+        ],
+        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fimenupro.com%2F&psig=AOvVaw2BzvpPQl90sV18qitwfIb-&ust=1739945952015000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjU__fJzIsDFQAAAAAdAAAAABAK",
+        link: "https://boisemenuworks.com/#/",
+        github: "https://github.com/Porter12346/menuworks"
+    },
+    {
         name: "Tower",
         outline: "Tower is an application designed to help people get together with their towers of users for events. Whether they are concerts, expos, or sporting events, Tower will be there to get people together.",
         description: "A longer breakdown of the project will go here. It will most likely be about a paragraph long and just go into a little more detail about the project.",
@@ -45,6 +61,22 @@ const projects = [
         image: "https://codeworks.blob.core.windows.net/public/assets/img/projects/inspire.jpg",
         link: "",
         github: "https://github.com/zbarnes32/inspire"
+    },
+    {
+        name: "AllSpice",
+        outline: "Let's get cooking with the recipe management tool AllSpice.",
+        description: "A longer breakdown of the project will go here. It will most likely be about a paragraph long and just go into a little more detail about the project.",
+        languages: [
+            "Vue.js", 
+            ".NET", 
+            "MySQL",
+            "JavaScript",
+            "Bootstrap CSS",
+            "HTML"
+        ],
+        image: "https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg",
+        link: "",
+        github: "https://github.com/zbarnes32/all_spice"
     }
 ]
 

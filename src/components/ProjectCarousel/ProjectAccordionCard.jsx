@@ -22,7 +22,7 @@ const ProjectAccordionCard = (props) => {
                         <h5 className="font-bold">{project.name}</h5>
                         <FontAwesomeIcon icon={faChevronDown} className={`transition-transform duration-200 ${isOpen ? "rotate-180" : "rotate-0"}`} />
                 </button>
-                <div className={`overflow-hidden transition-all duration-300 ${isOpen ? "max-h-[360px] p-4 bg-neutral-200 rounded-b-lg" : "max-h-0"}`}>
+                <div className={`overflow-hidden transition-all duration-300 ${isOpen ? "max-h-[480px] p-4 bg-neutral-200 rounded-b-lg" : "max-h-0"}`}>
                     <p>{project.outline}</p>
                     <div className="py-2">
                         <div className="flex justify-start flex-wrap">{project.languages.map((language, idx) => ( <div key={idx} className="mx-1 my-2 py-1 px-2 rounded-full text-neutral-50 bg-cyan-600 text-sm">{language}</div>

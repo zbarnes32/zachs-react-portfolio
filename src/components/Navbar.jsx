@@ -24,9 +24,9 @@ const Navbar = () => {
             </div>
             <div className="container mx-4">
                 <ul className={`${isOpen ? 'block' : 'hidden' } pt-4 pb-2 md:flex md:items-center md:space-x-4`}>
-                    <li className="py-4 md: py-0 md:mx-2 font-bold"><a href="#about" className="hover:text-blue-200">About Me</a></li>
+                    <li className="py-2 md: py-0 md:mx-2 font-bold"><a href="#about" className="hover:text-blue-200">About Me</a></li>
                     <li className="py-2 md: py-0 md:mx-2 font-bold"><a href="#projects" className="hover:text-blue-200">My Projects</a></li>
-                    <li className="py-2 md: py-0 md:hidden font-bold"><a href="#contact" className="hover:text-blue-200">Get In Touch</a></li>
+                    <li className="py-2 md:mx-2 py-0 md:hidden font-bold"><a href="#contact" className="hover:text-blue-200">Get In Touch</a></li>
                     {/* <li className="mx-2"><a href="#contact" className="hover:text-blue-200">Contact Me</a></li> */}
                 </ul>
             </div>

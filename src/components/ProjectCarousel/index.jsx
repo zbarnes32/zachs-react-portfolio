@@ -20,7 +20,7 @@ const ProjectCarousel = () => {
     ))
 
     return (
-    <div className="flex items-center">
+    <div className="flex md:items-center items-start">
 {/* Project Accordion List (Mobile view) */}
         <div className="md:hidden max-w-md mx-auto mt-10">
             {accordionCards}

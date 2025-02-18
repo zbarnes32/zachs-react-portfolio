@@ -24,10 +24,18 @@ const ProjectAccordionCard = (props) => {
                 </button>
                 <div className={`overflow-hidden transition-all duration-300 ${isOpen ? "max-h-[360px] p-4 bg-neutral-200 rounded-b-lg" : "max-h-0"}`}>
                     <p>{project.outline}</p>
-                    <div className="p-2">
-                        <div className="flex justify-center flex-wrap">{project.languages.map((language, idx) => ( <div key={idx} className="mx-2 my-2 py-2 px-4 rounded-full text-neutral-50 bg-cyan-600 text-sm">{language}</div>
+                    <div className="py-2">
+                        <div className="flex justify-start flex-wrap">{project.languages.map((language, idx) => ( <div key={idx} className="mx-1 my-2 py-1 px-2 rounded-full text-neutral-50 bg-cyan-600 text-sm">{language}</div>
                     ))}</div>
+                    <div className="text-neutral-500 text-2xl flex justify-end">
+                        <a href="" className="hidden">
+                            <FontAwesomeIcon icon={faGlobe} className="mr-2" />
+                        </a>
+                        <a href={project.github}>
+                            <FontAwesomeIcon icon={faGithub} className="mr-2"/>
+                        </a>
                     </div>
+                </div>
             </div>
         </div>
         </section>

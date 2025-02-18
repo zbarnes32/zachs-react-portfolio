@@ -20,7 +20,7 @@ const AboutMe = () => {
             <div className="order-first md:order-last md:my-8 md:basis-1/3 flex flex-col">
                 <h2 className="text-5xl text-center mb-8">My Toolkit</h2>
                 <div className="flex justify-center">
-                    <div className="flex flex-wrap mx-4 md:aspect-square">{skillList}</div>
+                    <div className="flex flex-wrap justify-center mx-4 md:aspect-square">{skillList}</div>
                 </div>
             </div>
         </section>

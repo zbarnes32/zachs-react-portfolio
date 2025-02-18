@@ -16,9 +16,11 @@ function App() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <div className="flex flex-col h-screen items-center justify-center bg-gradient-to-r from-blue-900 to-blue-950">
-        <div className="container mx-4">
-          <h2 className="text-5xl text-center mt-32 mb-16 text-neutral-50">My Projects</h2>
+      <div className="flex flex-col h-[800px] md:h-screen items-center justify-start md:justify-center bg-gradient-to-r from-blue-900 to-blue-950">
+        <div className="container md:mx-4">
+          <h2 className="text-5xl text-center mt-16 md:mt-32 mb-16 text-neutral-50">My Projects</h2>
+        </div>
+        <div className="p-4">
           <ProjectCarousel />
         </div>
       </div>

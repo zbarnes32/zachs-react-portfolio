@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import projects from '../projects';
+import ProjectAccordionCard from './ProjectAccordionCard.jsx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
@@ -14,16 +15,27 @@ const ProjectCarousel = () => {
         <ProjectCard project={project} key={idx}/>
     ));
 
+    const accordionCards = projects.map((project, idx) => (
+        <ProjectAccordionCard project={project} key={idx} />
+    ))
+
     return (
-        <div className="flex items-center">
+    <div className="flex items-center">
+{/* Project Accordion List (Mobile view) */}
+        <div className="md:hidden max-w-md mx-auto mt-10">
+            {accordionCards}
+        </div>
+
+{/* Project Carousel (Medium screens and above) */}
+        <div className="hidden md:block">
             <button 
                 className="px-4 py-2 mx-4 rounded-full bg-neutral-100 text-2xl text-blue-950 hover:bg-neutral-300"
                 onClick={() => {
                     if (startIdx > 0){
                         setStartIdx(startIdx - 1);
                     }
-                 }}
-            >
+                }}
+                >
                 <FontAwesomeIcon icon={faChevronLeft} /></button>
             <div className="rounded-lg w-full duration-1000 ease-in-out">
                 {projectCards}   
@@ -37,9 +49,9 @@ const ProjectCarousel = () => {
                 }}
                 >
                 <FontAwesomeIcon icon={faChevronRight} />
-            </button>
-                
+            </button>   
         </div>
+    </div>
     )
 }
 

@@ -27,7 +27,7 @@ const ProjectCarousel = () => {
         </div>
 
 {/* Project Carousel (Medium screens and above) */}
-        <div className="hidden md:block">
+        <div className="hidden md:flex md:items-center md:justify-center">
             <button 
                 className="px-4 py-2 mx-4 rounded-full bg-neutral-100 text-2xl text-blue-950 hover:bg-neutral-300"
                 onClick={() => {

@@ -27,7 +27,7 @@ const projects = [
             "Bootstrap CSS",
             "HTML"
         ],
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fimenupro.com%2F&psig=AOvVaw2BzvpPQl90sV18qitwfIb-&ust=1739945952015000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjU__fJzIsDFQAAAAAdAAAAABAK",
+        image: "https://assets3.thrillist.com/v1/image/3130793/1584x1188/scale;webp=auto;jpeg_quality=60;progressive.jpg",
         link: "https://boisemenuworks.com/#/",
         github: "https://github.com/Porter12346/menuworks"
     },

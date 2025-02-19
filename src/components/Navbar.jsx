@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gradient-to-r from-blue-900 to-blue-950 text-white w-full sm:py-4 sm:px-3 fixed top-0 left-0 md:h-20 shadow-md sm:flex sm:justify-between sm:items-center">
+        <nav className="bg-gradient-to-r from-blue-900 to-blue-950 text-white w-full sm:py-4 sm:px-3 fixed z-10 top-0 left-0 md:h-20 shadow-md sm:flex sm:justify-between sm:items-center">
             <div className="flex justify-between items-center py-3 px-4 sm:p-0">
                 <div>
                     <div className="text-3xl"><a className="border border-neutral-100 p-2 rounded-full hover:text-cyan-400 hover:border hover:border-cyan-400" href="#hero">ZB</a>

@@ -20,8 +20,8 @@ const ProjectCard = (props) => {
                                 <h5 className="mb-2 text-3xl font-bold text-neutral-50 mx-4">{project.name}</h5>
                             </div>
                             <div className="text-neutral-50 text-xl">
-                                <a href="">
-                                    <FontAwesomeIcon icon={faGlobe} className="mr-2" />
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="">
+                                    {project.link && (<FontAwesomeIcon icon={faGlobe} className="mr-2" />)}
                                 </a>
                                 <a href={project.github}>
                                     <FontAwesomeIcon icon={faGithub} className="mr-2" />

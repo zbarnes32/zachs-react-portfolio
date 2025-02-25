@@ -12,7 +12,7 @@ const projects = [
             "HTML"
         ],
         image: "https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg",
-        link: "zacharybarnes.dev",
+        link: "https://zacharybarnes.dev",
         github: "https://github.com/zbarnes32/keepr"
     },
     {

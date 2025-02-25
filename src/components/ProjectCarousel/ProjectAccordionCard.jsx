@@ -28,8 +28,8 @@ const ProjectAccordionCard = (props) => {
                         <div className="flex justify-start flex-wrap">{project.languages.map((language, idx) => ( <div key={idx} className="mx-1 my-2 py-1 px-2 rounded-full text-neutral-50 bg-cyan-600 text-sm">{language}</div>
                     ))}</div>
                     <div className="text-neutral-700 text-2xl flex justify-end">
-                        <a href="" className="hidden">
-                            <FontAwesomeIcon icon={faGlobe} className="mr-2" />
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="">
+                            {project.link && (<FontAwesomeIcon icon={faGlobe} className="mr-2" />)}
                         </a>
                         <a href={project.github}>
                             <FontAwesomeIcon icon={faGithub} className="mr-2"/>
